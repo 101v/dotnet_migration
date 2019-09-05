@@ -7,7 +7,17 @@
 5. Build Solution. It may result into follow warning/error.
    ![Warnings](Warnings.png)
 6. To resolver above mentioned warnings/errors, fire following command in the **Visual Studio Package Manager Console**
-```
+   ```
    Update-Package -Reinstall
-```
-7.
+   ```
+7. As a result of the above command, package.config get updated (notice change in tagetFramework) 
+   From
+   ```
+   <package id="FluentAssertions" version="3.3.0" targetFramework="net45" />
+   ```
+   to
+   ```
+   <package id="FluentAssertions" version="3.3.0" targetFramework="net46" />
+   ```
+8. Clean and Rebuild the solution.
+9. The older warnings/errors are gone, however new warning shown below appears
