@@ -5,6 +5,7 @@
 3. On the application tab change target framework from **.NET Framework 4.5** to **.NET Framework 4.6**
 4. On changing framework, it will open a dialog box, click Ok.
 5. Build Solution. It may result into follow warning/error.
+   ![Warnings](Warnings.png)
 
 ```markdown
 Syntax highlighted code block
