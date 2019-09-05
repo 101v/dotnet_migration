@@ -1,12 +1,10 @@
-## Welcome to GitHub Pages
+## Migrating .net 4.5 project to .net 4.6
 
-You can use the [editor on GitHub](https://github.com/101v/dotnet_migration/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. Right click on project and select **properties** from the context menu.
+2. On the property page select **Application** tab 
+3. On the application tab change target framework from **.NET Framework 4.5** to **.NET Framework 4.6**
+4. On changing framework, it will open a dialog box, click Ok.
+5. Build Solution. It may result into follow warning/error.
 
 ```markdown
 Syntax highlighted code block
